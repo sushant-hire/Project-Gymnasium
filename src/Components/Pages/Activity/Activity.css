@@ -1,0 +1,19 @@
+.MeetOurTeamContainer {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.SeeTheWholeTeamButton {
+    width: 15%;
+    background-color: red;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.SeeTheWholeTeamButton:hover {
+    background-color: black;
+}

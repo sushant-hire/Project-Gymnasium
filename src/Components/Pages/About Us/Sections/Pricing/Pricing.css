@@ -1,0 +1,59 @@
+ul {
+  list-style-type: "\27A4";
+}
+
+.PricingContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.DayPassContent {
+  margin: 40px;
+}
+
+.MonthToMonthContent {
+  margin: 40px;
+}
+
+.PricingContent {
+  margin: 40px;
+}
+
+.PricingHeading {
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: fit-content;
+}
+
+.DayPassButton {
+  width: 80%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.DayPassButton:hover {
+  background-color: black;
+}
+
+.MonthToMonthButton:hover {
+  background-color: black;
+}
+
+.MonthToMonthButton {
+  width: 80%;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

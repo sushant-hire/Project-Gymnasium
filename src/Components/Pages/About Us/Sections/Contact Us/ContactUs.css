@@ -1,0 +1,60 @@
+.FooterContainer {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.GymContent {
+    margin: 20px;
+    margin-left: 35px;
+    color: white;
+    text-align: left;
+
+}
+
+.HealthyLivingContent {
+    margin: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.ServiceContent {
+    margin: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.ProgrammersContent {
+    margin: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.GymHeading {
+    color: red;
+}
+
+.HealthyLivingHeading {
+    color: red;
+}
+
+.ServiceHeading {
+    color: red;
+}
+
+.ProgrammersHeading {
+    color: red;
+}
+
+.FooterSign {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}

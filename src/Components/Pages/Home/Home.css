@@ -1,0 +1,154 @@
+.HomeContainer {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.HomeImage {
+    width: 100%;
+    height: 100%;
+}
+
+.HomeImageText {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 53px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.HomeJoinUsButton {
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 64%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px red;
+    cursor: pointer;
+    width: 10%;
+}
+
+.HomeJoinUsButton:hover {
+    background-color: black
+}
+
+.HomeRegisterButton {
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 64%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px red;
+    cursor: pointer;
+    width: 10%;
+
+}
+
+.HomeRegisterButton:hover {
+    background-color: black
+}
+
+.HomeLoginButton {
+
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 64%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px red;
+    cursor: pointer;
+    width: 10%;
+}
+
+.HomeLoginButton:hover {
+    background-color: black
+}
+
+.HomeGetStartedButton {
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 64%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px red;
+    cursor: pointer;
+    width: 10%;
+
+}
+
+.HomeGetStartedButton:hover {
+    background-color: black
+}
+
+.HomeGo2ActivityButton {
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 64%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px red;
+    cursor: pointer;
+    width: 10%;
+
+
+}
+
+.HomeGo2ActivityButton:hover {
+    background-color: black
+}
+
+
+@media only screen and (max-width: 768px) {
+    .HomeContainer {
+        font-size: 14px;
+    }
+
+    .HomeImageText {
+        font-size: 20px;
+        top: 160%;
+    }
+
+    .HomeJoinUsButton {
+        font-size: 20px;
+        width: 30%;
+        padding: 5px;
+        top: 240%;
+    }
+}

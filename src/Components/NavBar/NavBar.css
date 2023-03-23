@@ -1,0 +1,22 @@
+.navbar-nav {
+    font-size: large;
+}
+
+.nav-item {
+    font-size: large;
+}
+
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.NavRegisterButton {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.NavRegisterButton:hover {
+    background-color: black;
+}

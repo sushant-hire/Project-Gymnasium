@@ -1,0 +1,15 @@
+.WhyChooseUsContainer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 5px; 
+
+}
+.WhyChooseUsYouTubeLink {
+    margin: 50px; 
+
+}
+.WhyChooseUsContent {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 50px; 
+
+}
