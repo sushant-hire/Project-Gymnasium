@@ -9,6 +9,7 @@ const AboutUs = () => {
   return (
     <>
       <section
+        id="aboutus"
         style={{ backgroundColor: "darkred" }}
         className="AboutUsContainer"
       >

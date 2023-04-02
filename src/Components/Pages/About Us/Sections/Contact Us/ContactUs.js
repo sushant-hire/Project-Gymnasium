@@ -1,6 +1,5 @@
 import React from "react";
 import "./ContactUs.css";
-
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -65,7 +64,7 @@ const ContactUs = () => {
         </div>
       </div>
       <p className="FooterSign">
-        &copy; 2023 SAMS-III Exports. All Rights Reserved.
+        &copy; 2023 Sushant Exports. All Rights Reserved.
       </p>
     </section>
   );
